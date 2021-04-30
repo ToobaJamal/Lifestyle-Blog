@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+header {
+    background: #f8f8f8;
+    padding: 2em 0;
+}
+img {
+  width: 100%;
+}
+/*Typography*/
+h1, h2 {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+}
+h1 {
+  font-size: 2rem;
+  color: #143774;
+  margin: 0;
+}
+.article-title {
+  color: #143774;
+  font-size: 1.5rem;
+  margin-bottom: 0em;
+}
+.article-info {
+  margin-bottom: 0em;
+}
+p {
+  color: #707070;
+}
+.continue-reading {
+  color: #1792D2;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+}
+.continue-reading, .article-info {
+  font-size: 0.875rem;
+}
+.subtitle {
+  font-weight: 700;
+  font-size: 0.75rem;
+  color: #1792D2;
+  margin: 0;
+}
+.widget-title {
+  font-family: 'Ubuntu', sans-serif;
+  color: #143774;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.widget-recent-post-title {
+  color: #143774;
+  font-family: 'Lora', serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+}
+nav li {
+    margin-left: 2em;
+}
+nav a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #707070;
+}
+@media (max-width: 700px) {
+    .container-nav {
+        flex-direction: column;
+    }
+    header {
+        text-align: center;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav li {
+        margin: 0.5em auto;
+    }
+
+}
+article {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+}
+.article-main {
+  order: 1;
+}
+
+.featured {
+  border-bottom: 1px solid #707070;
+  padding-bottom: 1em;
+}
+.sidebar-widget {
+  border: 20px solid #EBEBEB;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+.widget-recent-post {
+  border-bottom: 1px solid #707070;
+  margin-bottom: 1em;
+}
+.widget-recent-post:last-child {
+  border: 0;
+}
+
+/*Homepage for big screens*/
+@media (min-width: 700px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  main {
+    flex-basis: 70%;
+  }
+  aside {
+    flex-basis: 25%;
+  }
+
+}
