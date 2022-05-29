@@ -1,2 +1,3 @@
-# Lifestyle-Blog
-A responsive lifestyle blog homepage which is a project of Scrimba's Responsive web design bootcamp.
+# (Lifestyle-Blog)[https://toobajamal.github.io/]
+
+A responsive lifestyle blog homepage designed using HTML and CSS.
